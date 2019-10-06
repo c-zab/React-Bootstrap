@@ -1,19 +1,11 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React from 'react'
 
-export class PageHome extends Component {
-  static propTypes = {
+const PageHome = () => (
+  <div className="container">
+    <div className="row">
+      Main content
+    </div>
+  </div>
+)
 
-  }
-  render() {
-    return (
-      <div className="container">
-        <div className="row">
-          Main content
-        </div>
-      </div>
-    )
-  }
-}
-
-export default PageHome
+export default PageHome;

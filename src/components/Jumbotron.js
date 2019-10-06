@@ -1,8 +1,7 @@
 import React from 'react'
-import { fdatasync } from 'fs';
+import PropTypes from 'prop-types';
 
-export default function Jumbotron() {
-  const {heading, text, link} = this.props;
+export const Jumbotron = ({heading, text, link}) => {
   return (
     <div className="jumbotron">
       <div className="container px-0">
@@ -24,4 +23,3 @@ Jumbotron.defaultProps = {
   text: 'Perferendis saepe odit voluptas itaque excepturi unde. Perferendis saepe odit voluptas itaque excepturi unde.',
   link: 'http://www.google.com'
 }
-

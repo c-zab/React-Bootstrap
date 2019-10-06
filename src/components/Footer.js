@@ -1,6 +1,7 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
-Footer = ({website, year}) => {
+const Footer = ({website, year}) => {
   return (
     <footer className="container px-0">
       <hr />
